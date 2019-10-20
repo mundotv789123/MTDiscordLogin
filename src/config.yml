@@ -1,0 +1,63 @@
+###################################
+#     plugin feito por mundotv    #
+#  discord: raspcraft.tk/discord  #
+###################################
+
+Discord:
+  Token: ''
+  IDCanal: ''
+  IDServer: '' 
+
+config:
+  limite-contas: 2
+  game-status: 'm!ajuda'
+  prefix: 'm!'
+
+MySQL:
+  usuario: 'root'
+  senha: 'passwd'
+  host: 'localhost'
+  database: 'mtlogin'  
+  
+MessagensKick:
+  SemRegistro:
+  - ''
+  - '&a Para que vc possa entrar no servidor vc deverá'
+  - '&a entrar em nosso discord &7http//raspcraft.tk/discord'
+  - '&a e usar o comando &7m!registrar %nick%'
+  - ''
+  SemLogin:
+  - ''
+  - '&a Para que vc possa entrar no servidor vc deverá'
+  - '&a se logar, para isso vc precisa entrar no discord'
+  - '&a e usar o comando &7m!login %nick%'
+  - ''
+  ForaDoDiscord:
+  - ''
+  - '&a Sua conta do discord n foi encontrada dentro do nosso servidor'
+  - '&a vc precisar entrar nesse discord &7http//raspcraft.tk/discord'
+  - '&a para poder entrar no servidor'
+  - ''
+  
+MenssagesDiscord:
+  LimiteExedido: '%discod-nick% Seu limite de contas foi exedido, use %prefix%lista e remove um conta com %prefix%remover <nick>'
+  Registrando: '%discod-nick% Registrado com sucesso!'
+  Desregistrando: '%discod-nick% Desregistrado com sucesso!'
+  Logando: '%discod-nick% Logado com sucesso!'
+  NickRegistrado: '%discod-nick% Esse nick ja foi registrado por outro membro do discord!'
+  JaRegistrado: '%discod-nick% Você já tem esse nick registrado em sua conta'
+  NickInvalido: '%discod-nick% Esse nick não é um nick válido de minecraft'
+  NickNaoRegistrado: '%discod-nick% Nick ainda não foi registrado use %prefix%registrar <nick> para se registrar'
+  ErroInterno: '%discod-nick% Ocorreu um erro ao tentar usar esse comando! entre em contato com o suporte para obter ajuda'
+  ComandoIncompleto: '%discod-nick% Esse comando que vc está tentando usar esta incompleto, use %prefix%ajuda para obter a lista de comandos'
+  ListaVazia: 'Você não tem nicks registrados nessa conta'
+  Desregistrando: 'Desregistrado com sucesso, agora outra pessoa pode registrar'
+  Ajuda:
+  - '`%prefix%registrar <nick>` use esse comando para se registrar no servidor'
+  - '`%prefix%lista` com esse comando vc ver todos os nicks registrados no seu discord'
+  - '`%prefix%logar <nick>` com esse comando vc se autentica no servidor'
+  - '`%prefix%remover <nick>` com esse comando vc remove uma das contas'
+  Lista:
+  - '```'
+  - '%lista%'
+  - '```'

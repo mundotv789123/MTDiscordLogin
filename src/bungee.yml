@@ -1,0 +1,6 @@
+main: me.mundotv.BungeeMain
+name: MTDiscordLogin
+version: 1.7
+author: mundotv789123
+website: raspcraft.tk
+load: STARTUP;
