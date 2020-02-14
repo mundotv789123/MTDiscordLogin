@@ -1,7 +1,7 @@
 # MTDiscordLogin
 plugin de atenticação de dois fatores via discord para minecraft
 
-o download do plugin compilado vc encontra em http://raspcraft.tk
+o download do plugin compilado vc encontra em http://raspcraft.tk/downloads/plugins/MTDiscordLogin.jar
 
 para que vc possa usar esse plugin vc precisa de um banco de dados mysql
 e de um bot no discord
